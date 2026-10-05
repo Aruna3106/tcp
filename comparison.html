@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Protocol Comparison</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+TCP Simulator
+</div>
+
+<div>
+<a href="index.html">Home</a>
+<a href="dashboard.html">Dashboard</a>
+<a href="report.html">Report</a>
+</div>
+
+</nav>
+
+<div class="container">
+
+<h1>TCP Protocol Comparison</h1>
+
+<p>
+Comparison of different data transmission protocols used for
+flow control and error recovery.
+</p>
+
+<div class="card">
+
+<h2>Protocol Performance Comparison</h2>
+
+<table>
+
+<tr>
+<th>Feature</th>
+<th>Stop & Wait</th>
+<th>Go-Back-N</th>
+<th>Selective Repeat</th>
+</tr>
+
+<tr>
+<td>Efficiency</td>
+<td>Low</td>
+<td>Medium</td>
+<td>High</td>
+</tr>
+
+<tr>
+<td>Window Size</td>
+<td>1</td>
+<td>Multiple</td>
+<td>Multiple</td>
+</tr>
+
+<tr>
+<td>Retransmission</td>
+<td>Single Packet</td>
+<td>All Following Packets</td>
+<td>Only Lost Packet</td>
+</tr>
+
+<tr>
+<td>Complexity</td>
+<td>Low</td>
+<td>Medium</td>
+<td>High</td>
+</tr>
+
+<tr>
+<td>Bandwidth Utilization</td>
+<td>Low</td>
+<td>Good</td>
+<td>Excellent</td>
+</tr>
+
+<tr>
+<td>Error Recovery</td>
+<td>Basic</td>
+<td>Good</td>
+<td>Best</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Best Protocol</h2>
+
+<p>
+Selective Repeat provides the highest efficiency because only
+lost packets are retransmitted. This reduces bandwidth usage
+and improves overall network performance.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Simulation Result</h2>
+
+<p>
+The TCP simulation demonstrated reliable communication through
+flow control, acknowledgements, timeout detection and packet
+retransmission mechanisms.
+</p>
+
+</div>
+
+<a href="report.html" class="btn">
+Generate Final Report →
+</a>
+
+</div>
+
+</body>
+</html>

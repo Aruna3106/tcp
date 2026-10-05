@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+min-height:100vh;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(10px);
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+color:#00e5ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:50px 0;
+}
+
+h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+p{
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+margin-top:25px;
+background:linear-gradient(90deg,#00e5ff,#7c4dff);
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+padding:25px;
+border-radius:20px;
+margin:20px 0;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+padding:15px;
+border:1px solid #444;
+text-align:center;
+}
+
+th{
+background:#00e5ff;
+color:black;
+}
